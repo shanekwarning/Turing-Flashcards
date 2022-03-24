@@ -23,7 +23,7 @@ class Turn {
     if(this.correct === true){
       return 'correct!'
     } else {
-      return 'incorrect'
+      return 'incorrect!'
     }
   }
 }
