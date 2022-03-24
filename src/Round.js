@@ -7,7 +7,7 @@ class Round {
     this.correctPercent = 100
   }
   returnCurrentCard() {
-    this.currentCard = this.deck.cards.shift();
+    this.currentCard = this.deck.cards[this.turns];
     return this.currentCard
   }
   takeTurn(guess) {
@@ -31,7 +31,7 @@ class Round {
     return this.correctPercent
   }
   endRound() {
-    console.log(`**Round over!** You answered ${this.correctPercent}% of the questions correctly!`)
+    console.log(`**Round over!** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`)
   }
 }
 
