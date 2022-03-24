@@ -59,5 +59,5 @@ it('shoud give feedback', () => {
   turn2.giveFeedback();
 
   expect(turn.giveFeedback()).to.equal('correct!');
-  expect(turn2.giveFeedback()).to.equal('incorrect')
+  expect(turn2.giveFeedback()).to.equal('incorrect!')
 })
