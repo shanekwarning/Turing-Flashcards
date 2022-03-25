@@ -29,14 +29,10 @@ Welcome to FlashCards! You are playing with 30 cards.
 
 When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
 
-![flash cards example gif](http://www.giphy.com/gifs/cxsqT0cysImE456oAu)
+![flash cards example gif](https://media.giphy.com/media/cxsqT0cysImE456oAu/giphy.gif)
 
 ---
 
 ## Technologies Used
 
 JavaScript
-
-```
-
-The test results will output to the terminal.
